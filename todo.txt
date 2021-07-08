@@ -1,0 +1,10 @@
+## npm run test for testing
+
+## npm run lint for eslint check
+
+## npm run build
+
+#for running all before commiting
+-- npm run validate 
+
+
