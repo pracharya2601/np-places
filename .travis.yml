@@ -1,18 +1,30 @@
+
 language: node_js
 
-node_js:
-  - 8
-  - 6
+after_success:
+  - npm run report-coverage
+
+branches:
+  only:
+    - main
 
 jobs:
   include:
-    # Define the release stage that runs semantic-release
-    - stage: release
+    - stage: test
+      node_js:
+        - lts/*
+      script:
+        - npm run cover
+        - npm run check-coverage
+        - npm run build
+      - stage: release
       node_js: lts/*
-      # Advanced: optionally overwrite your default `script` step to skip the tests
-      # script: skip
+#      script:
+#        - npm run build
       deploy:
         provider: script
         skip_cleanup: true
+        on:
+          all_branches: true
         script:
           - npx semantic-release
