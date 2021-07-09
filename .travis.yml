@@ -3,14 +3,16 @@ language: node_js
 cache:
   directories:
     - node_modules
+env:
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+branches:
+  only:
+    - main
 notifications:
   email: false
-before_script:
-  - npm prune
 script:
-  - npm run cover
-  - npm run check-coverage
-  - npm run build
+  - npm run validate
 after_success:
   - npm run report-coverage
-  - npm run semantic-release
+  - npm run release
