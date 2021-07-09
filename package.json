@@ -14,7 +14,7 @@
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "test": "cross-env NODE_ENV=test nyc mocha ./src/* ",
     "validate": "npm-run-all lint test build",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
