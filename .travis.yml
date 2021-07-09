@@ -1,22 +1,19 @@
+sudo: false
 language: node_js
-
-after_success:
-  - npm run report-coverage
-
+cache:
+  directories:
+    - node_modules
 branches:
   only:
-    - main
-
-jobs:
-  include:
-    script:
-      - npm run cover
-      - npm run check-coverage
-      - npm run build
-    deploy:
-      provider: script
-      skip_cleanup: true
-      on:
-        all_branches: true
-      script:
-        - npx semantic-release
+    - master
+notifications:
+  email: false
+before_script:
+  - npm prune
+script:
+  - npm run cover
+  - npm run check-coverage
+  - npm run build
+after_success:
+  - npm run report-coverage
+  - npm run semantic-release
