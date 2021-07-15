@@ -3,9 +3,7 @@ import { join } from 'path';
 const context = join(__dirname, 'src');
 
 export default {
-  context,
-  entry: './index',
-  mode: 'development',
+  entry: './src/index',
   output: {
     path: join(__dirname, 'dist'),
     libraryTarget: 'umd',
