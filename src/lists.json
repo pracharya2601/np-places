@@ -1,0 +1,116 @@
+{
+  "data": [
+    {
+      "state": "Kathmandu Kshetra",
+      "districts": [
+        "sindhuli",
+        "Ramechhap",
+        "Dolakha",
+        "Bhaktapur",
+        "Dhading",
+        "Kathmandu",
+        "Kavrepalanchok",
+        "Lalitpur",
+        "Nuwakot",
+        "Rasuwa",
+        "Sindupalchok",
+        "Chitwan",
+        "Makwanpur"
+      ]
+    },
+    {
+      "state": "Arun Kshetra",
+      "districts": [
+        "Bhojpur",
+        "Dhankuta",
+        "Ilam",
+        "Jhapa",
+        "khotang",
+        "Morang",
+        "Okhaldhunga",
+        "Panchthar",
+        "Sankhuwasabha",
+        "Solukhumbu",
+        "Sunsari",
+        "Taplejung",
+        "Terhathum",
+        "Udayapur"
+      ]
+    },
+    {
+      "state": "Janakpur Kshetra",
+      "districts": [
+        "Parsa",
+        "Bara",
+        "Rautahat",
+        "Sarlahi",
+        "Dhanusa",
+        "Siraha",
+        "Mahottari",
+        "Saptari"
+      ]
+    },
+    {
+      "state": "Gandak Kshetra",
+      "districts": [
+        "Baglung",
+        "Gorkha",
+        "Kaski",
+        "Lamjung",
+        "Manang",
+        "Mustang",
+        "Myagdi",
+        "Nawalpur",
+        "Parbat",
+        "Syangja",
+        "Tanahun"
+      ]
+    },
+    {
+      "state": "Kapilavastu Kshetra",
+      "districts": [
+        "Kapilvastu",
+        "Pasasi",
+        "Rupandehi",
+        "Arghakhanchi",
+        "Gulmi",
+        "Palpa",
+        "Dang Deukhuri",
+        "Pyuthan",
+        "Rolpa",
+        "Eastern Rukum",
+        "Banke",
+        "Bardiya"
+      ]
+    },
+    {
+      "state": "Karnali Kshetra",
+      "districts": [
+        "Western Rukum",
+        "Salyan",
+        "Dolpa",
+        "humla",
+        "Jumla",
+        "Kalikot",
+        "Mugu",
+        "Surkhet",
+        "Dailekh",
+        "Jajarkot"
+      ]
+    },
+    {
+      "state": "Mahakali Kshetra",
+      "districts": [
+        "Kailali",
+        "Achham",
+        "Doti",
+        "Bajhang",
+        "Bajhura",
+        "Kanchanpur",
+        "Dadeldhura",
+        "Baitadi",
+        "Darchula"
+      ]
+    }
+  ]
+}
