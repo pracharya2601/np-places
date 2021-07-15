@@ -1,6 +1,6 @@
 {
   "name": "np-places",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "States, district and cities of nepal",
   "main": "dist/index.js",
   "scripts": {

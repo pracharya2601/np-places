@@ -9,7 +9,7 @@ export default {
   output: {
     path: join(__dirname, 'dist'),
     libraryTarget: 'umd',
-    library: 'np-places',
+    library: 'npPlaces',
   },
   devtool: 'source-map',
   /* add peer dependency here */
