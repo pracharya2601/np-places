@@ -1,6 +1,10 @@
-const data = require('./data.json');
+const { state } = require('./state');
+const { districts, districtList } = require('./district');
 
-/* output item */
-module.exports = {
-  provence: data.provience,
+const mainExport = {
+  state,
+  districts,
+  districtList,
 };
+/* output item */
+module.exports = mainExport;
