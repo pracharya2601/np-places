@@ -1,10 +1,10 @@
 const { state } = require('./state');
 const { districts, districtList } = require('./district');
 
-const mainExport = {
+const npPlaces = {
   state,
   districts,
   districtList,
 };
 /* output item */
-module.exports = mainExport;
+module.exports = npPlaces;
