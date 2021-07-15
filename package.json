@@ -13,8 +13,7 @@
     "watch:test": "mocha --watch",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "test": "cross-env NODE_ENV=test nyc mocha ./src/* ",
-    "validate": "npm-run-all lint test build",
-    "semantic-release": "semantic-release"
+    "validate": "npm-run-all lint test build"
   },
   "repository": {
     "type": "git",
@@ -55,7 +54,8 @@
     "npm-run-all": "^4.1.5",
     "nyc": "^15.1.0",
     "webpack": "^5.43.0",
-    "webpack-cli": "^4.7.2"
+    "webpack-cli": "^4.7.2",
+    "semantic-release": "^17.4.4"
   },
   "nyc": {
     "check-coverage": true,
